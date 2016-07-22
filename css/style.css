@@ -20,6 +20,7 @@ h3{
 .btn-red:hover{
     background: #ec4835;
 }
+
 /*=====header====*/
 .menu-top .navbar{
     margin-bottom: 0;
@@ -57,6 +58,18 @@ h3{
     margin-right: 5px;
     position: relative;
     top:-1px;
+}
+.menu-carousel .item{
+    min-height: 600px;
+}
+.menu-carousel .bgslide{
+    background-size:cover;
+    background-position: center center;
+    position:absolute;
+    left:0;
+    top:0;
+    height: 100%;
+    width: 100%;
 }
 
 /*wide screens*/
