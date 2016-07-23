@@ -95,6 +95,33 @@ h3{
 .menu-carousel .container{
     position: relative;
 }
+.main-menu .navbar-inverse{
+    background:transparent;
+    border:none;
+}
+.main-menu{
+    position:absolute;
+    z-index: 21;
+    width: 100%;
+    top:30px;
+}
+.main-menu-bg{
+    background: #000;
+    border-radius: 3px;
+}
+.main-menu .navbar-brand img{
+    float:left;
+}
+.main-menu .navbar-brand span{
+    display: inline-block;
+    padding: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 15px;
+    color: #fff;
+}
+
+
 /*wide screens*/
 @media only screen and (max-width: 1200px){
     .menu-top .navbar-nav{
