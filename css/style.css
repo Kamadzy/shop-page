@@ -120,6 +120,8 @@ h3{
     font-size: 15px;
     color: #fff;
 }
+
+/*====content===*/
 .main-slogan{
     background: #fff;
     text-align: center;
@@ -130,9 +132,35 @@ h3{
 .main-slogan h1{
     font-size: 30px;
     margin: 0;
-    
 }
-
+.sidebar{
+    padding: 50px 0 70px;
+    border-right: 3px solid #dadada;
+}
+.widget{
+    border-bottom: 3px solid #dadada;
+}
+.widget h3, .content h3{
+    margin-top:0;
+    margin-bottom: 30px;
+}
+.content{
+    padding: 50px 0 70px;
+}
+.widget ul{
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+.widget ul li a{
+    color: #000;
+    font-size: 16px;
+    line-height: 30px;
+    display:block;
+}
+.widget ul li.more a{
+    color:#358acd;
+}
 
 /*wide screens*/
 @media only screen and (max-width: 1200px){
