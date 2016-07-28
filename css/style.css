@@ -161,7 +161,95 @@ h3{
 .widget ul li.more a{
     color:#358acd;
 }
+.content{
+    padding: 50px 0 70px;
+}
 
+.sidebar .carousel{
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.sidebar .sidebar-carousel-caption{
+    background: #fff;
+    border-bottom: 1px solid #e1e1e1;
+}
+.sidebar .sidebar-carousel-caption div{
+    padding: 20px;
+}
+.sidebar .sidebar-carousel-caption h4{
+    margin-top: 0;
+    font-weight: 700;
+    font-size: 14px;
+}
+.sidebar .sidebar-carousel-caption p{
+    margin-bottom: 0;
+    font-size: 12px;
+    color: #5b5b5b;
+}
+.sidebar .carousel-indicators{
+    background: #fff none repeat scroll 0 0;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: auto;
+    margin-left: 0;
+    padding: 10px 0;
+}
+.sidebar .carousel-indicators li{
+    background: #9a9a9a;
+    width: 10px;
+    height: 10px;
+    margin: 0 5px;
+}
+.sidebar .carousel-indicators li.active{
+    background: #5b5b5b;
+}
+.sidebar .banner{
+    background: #fff;
+    margin-bottom: 40px;
+}
+.sidebar .banner img{
+    margin-bottom: 35px;
+}
+.sidebar .banner h3,
+.sidebar .banner h2{
+    text-transform: uppercase;
+    margin: 0;
+}
+.sidebar .banner h3{
+    font-size: 18px;
+}
+.sidebar .banner h2{
+    font-size: 28px;
+    font-weight: bold;
+}
+.sidebar .banner a.btn-red{
+    padding: 5px 30px;
+    margin: 30px 0;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 3px;
+    transition: all .5s;
+}
+.sidebar .banner a.btn-red:hover{
+    color: #fff;
+    text-decoration: none;
+}
+.sidebar .about{
+    padding-right: 35px;
+}
+.sidebar .about h3{
+    margin: 0 0 25px;
+}
+.sidebar .about p{
+    color: #585858;
+    margin-bottom: 30px;
+}
+.sidebar .about span{
+    color: #0a94b2;
+}
 
 
 /*wide screens*/
