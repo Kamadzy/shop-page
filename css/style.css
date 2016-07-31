@@ -369,6 +369,28 @@ h3{
 .bottom-content .form-inline .btn:hover{
     background: #d96340;
 }
+/*=============================footer===========================*/
+.footer-menu{
+    background: #343434;
+    padding: 30px 0;
+}
+.footer-menu h5{
+    color: #c8c8c8;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.footer-menu ul{
+    list-style: none;
+    padding: 0;
+}
+.footer-menu ul li a{
+    color: #c8c8c8;
+    line-height: 22px;
+}
+.footer-copyright{
+    background: #fff;
+    padding: 25px 0;
+}
 
 /*wide screens*/
 @media only screen and (max-width: 1200px){
